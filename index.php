@@ -4,7 +4,7 @@
 	<?php include "template/navbar.tpl"; ?>
 
 	<!-- modal - mulai -->
-	<?php include "template/modalindex.tpl"; ?>
+	<?php include "template/modal.tpl"; ?>
 
 	<!-- splash - mulai -->
 	<div class="splash">
