@@ -1,0 +1,64 @@
+TABLES
+
+other_stuff
+	- id
+	- name
+	- price
+	- status
+	- time_created
+	- time_updated
+
+order / box
+	- id
+	- persona_id (int table:persona)
+	- code (automatic generated)
+	- box (int)
+	- fit_in (int 0:1)
+	- other_stuff_id (int table:stuff || 0)
+	- other (text)
+	- status
+	- time_created
+	- time_updated
+
+order_schedule
+	- id
+	- order_id (int table:order)
+	- delivery_date (timestamp)
+	- delivery_time (varchar)
+	- pickup_schedule (int 1:0)
+	- pickup_date (timestamp)
+	- pickup_time (varchar)
+	- status
+	- time_created
+	- time_updated
+
+order_payment
+	- id
+	- order_id (int table:order)
+	- method (default:bank transfer)
+	- message (text)
+	- status
+	- time_created
+	- time_updated
+
+stuff
+	- id
+	- order_id (int table:order)
+	- list (textarea)
+	- time_created
+	- time_updated
+
+delivery_back_schedule (just temporary name)
+	- id
+	- order_id
+	- delivery_date (timestamp)
+	- delivery_time (varchar)
+	- time_created
+	- time_updated
+
+Administration order status
+	- Stored
+	- Payment Completed
+	- Pending Payment
+	- Diambil semua (Completed)
+	- Diambil sebagian
