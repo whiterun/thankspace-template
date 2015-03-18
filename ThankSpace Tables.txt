@@ -1,64 +1,85 @@
 TABLES
 
+user
+	- id
+	- type(staff|admin|user)
+	- firstname
+	- lastname
+	- email
+	- password
+	- country
+	- city
+	- address
+	- gender
+	- phone
+	- status
+	- created_at
+	- updated_at
+
 other_stuff
 	- id
 	- name
 	- price
 	- status
-	- time_created
-	- time_updated
+	- created_at
+	- updated_at
 
-order / box
+order
 	- id
-	- persona_id (int table:persona)
-	- code (automatic generated)
+	- user_id (int table:user)
 	- box (int)
 	- fit_in (int 0:1)
 	- other_stuff_id (int table:stuff || 0)
 	- other (text)
-	- status
-	- time_created
-	- time_updated
+	- status (0 default |1|2)
+	- created_at
+	- updated_at
 
 order_schedule
 	- id
 	- order_id (int table:order)
 	- delivery_date (timestamp)
 	- delivery_time (varchar)
-	- pickup_schedule (int 1:0)
 	- pickup_date (timestamp)
 	- pickup_time (varchar)
-	- status
-	- time_created
-	- time_updated
+	- status (0 scheduled | 1 delivered)
+	- created_at
+	- updated_at
 
 order_payment
 	- id
 	- order_id (int table:order)
+	- code (automatic generated)
 	- method (default:bank transfer)
 	- message (text)
-	- status
-	- time_created
-	- time_updated
+	- status (0|1)
+	- created_at
+	- updated_at
+
+driver_schedule
+	- id
+	- user_id
+	- order_id
+	- created_at
+	- updated_at
 
 stuff
 	- id
 	- order_id (int table:order)
-	- list (textarea)
-	- time_created
-	- time_updated
+	- name (varchar)
+	- created_at
+	- updated_at
 
-delivery_back_schedule (just temporary name)
+return_schedule
 	- id
 	- order_id
-	- delivery_date (timestamp)
-	- delivery_time (varchar)
-	- time_created
-	- time_updated
+	- return_date (timestamp)
+	- return_time (varchar)
+	- created_at
+	- updated_at
 
 Administration order status
-	- Stored
-	- Payment Completed
+	- Completed Payment
 	- Pending Payment
-	- Diambil semua (Completed)
-	- Diambil sebagian
+	- Stored
+	- Returned
