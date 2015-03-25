@@ -20,7 +20,7 @@
 					<a><span class="round-tabs three"><i class="glyphicon glyphicon-user"></i></span></a>
 				</li>
 				<li>
-					<a><span class="round-tabs four"><i class="glyphicon glyphicon-ok"></i></span></a>
+					<a><span class="round-tabs four"><i class="glyphicon glyphicon-eye-open"></i></span></a>
 				</li>
 				<li>
 					<a><span class="round-tabs five"><i class="glyphicon glyphicon-ok"></i></span></a>
@@ -35,10 +35,11 @@
 				<div class="panel panel-default">
 					<div class="panel-body">
 						<center>
-							<h2>Berapa banyak storage box yang Anda butuhkan?</h2>
-							<p>Biaya sewa 1 storage box hanya IDR 50.000 / bulan</p>
+							<h4>Berapa banyak storage box/item yang Anda butuhkan?</h4>
+							<hr><img class="img-responsive" src="assets/img/standardBox.png">
+							<h3>STANDARD BOX: Rp.50.000/bulan per box</h3>
+							<p>Our average customer stores 7 boxes</p>
 						</center>
-						<br><br>
 						<form class="form-horizontal">
 							<fieldset>
 								<div class="form-group">
@@ -92,16 +93,30 @@
 								<div id="Wowdiv" >
 								<hr>
 									<center>
-										<h3>Kami juga menerima "Wow Stuffs" atau barang-barang oversized Anda</h3>
+										<h3>OVERSIZED ITEM: IDR 150.000/bulan per item</h3>
+							<p>Berat maksimal 25kg, dengan panjang maksimal 2 meter</p>
 									</center>
-									<br><br>
+
+								<div class="form-group">
+									<label for="select" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Jumlah barang/item</label>
+									<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 ">
+										<select class="form-control" nama="jumlahitem" id="jumlahitem">
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+											<option value="6">6</option>
+										</select>
+									</div>
+								</div>
 									<div class="form-group">
-										<label for="select" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Jenis barang</label>
+										<label for="select" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 control-label">Detail barang</label>
 										<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
 											<select multiple="" nama="wowstuffs" class="form-control" id="wowstuffs">
-												<option value="1">Mebel/Furniture IDR 100.000</option>
-												<option value="2">Sepeda Motor IDR 150.000</option>
-												<option value="3">Patung/pahatan/ukiran seni IDR 200.000</option>
+												<option value="1">Patung/pahatan/ukiran seni</option>
+												<option value="2">Sepeda Kayuh</option>
+												<option value="3">Mebel/Furniture</option>
 												<option value="4">Lainnya</option>
 											</select>
 										</div>

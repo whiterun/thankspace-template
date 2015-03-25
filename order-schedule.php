@@ -20,7 +20,7 @@
 					<a><span class="round-tabs three"><i class="glyphicon glyphicon-user"></i></span></a>
 				</li>
 				<li>
-					<a><span class="round-tabs four"><i class="glyphicon glyphicon-ok"></i></span></a>
+					<a><span class="round-tabs four"><i class="glyphicon glyphicon-eye-open"></i></span></a>
 				</li>
 				<li>
 					<a><span class="round-tabs five"><i class="glyphicon glyphicon-ok"></i></span></a>
@@ -35,7 +35,9 @@
 				<div class="panel panel-default">
 					<div class="panel-body">
 						<center>
-							<h2>Kapan kami mengantarkan storage box Anda?</h2>
+							<h4>Jadwal pengantaran/pengambilan storage box/item</h4>
+							<hr>
+							<h3>Kapan kami mengantarkan storage box Anda?</h3>
 							<p>Jadwalkan tanggal pengiriman storage box sesuai dengan waktu Anda</p>
 						</center>
 						<br><br>
@@ -91,7 +93,7 @@
 											<label>
 												<input type="radio" name="collect" id="id_radio2" value="immediately" checked /> Ambil saat itu juga 
 											</label>
-											<span class="help-block"><i>Driver</i> kami akan menunggu hingga 20 menit saat Anda mengepak barang Anda.</span>
+											<span class="help-block"><i>Delivery Team</i> kami akan menunggu hingga 20 menit saat Anda mengepak barang Anda.</span>
 										</div>                
 										<div class="radio radio-primary">
 											<label>

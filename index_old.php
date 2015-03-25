@@ -4,7 +4,7 @@
 	<?php include "template/navbar.tpl"; ?>
 
 	<!-- modal - mulai -->
-	<?php include "template/modal-error.tpl"; ?>
+	<?php include "template/modal.tpl"; ?>
 
 	<!-- splash - mulai -->
 	<div class="splash">
@@ -208,19 +208,19 @@
 	function startIntro()
 	{
 		var intro = introJs();
-		intro.setOption('showProgress', 'false');
+		intro.setOption('showProgress', 'true');
 		
 		intro.setOptions({
 			steps: [
 				{
 					element: '#step1',
-					intro: "<img class=img-responsive src=assets/img/tour-1.png width=125> <br> Hai, saya Antoni, di sini saya akan membantu Anda mengenal ThankSpace. klik Next untuk melanjutkan!",
-					position: 'top'
+					intro: "Hai, Selamat datang di ThankSpace, layanan on-demand storage yang melayani kebutuhan Space sesuai kebutuhan. Saya Adam, Tour Guide tampan dari Galaxy Far Far Away! Untuk melanjutkan tour ini, Anda bisa klik Next!",
+					position: 'right'
 				},
 				{
 					element: '#step2',
-					intro: "Untuk lebih memahami layanan ThankSpace, Anda bisa mencoba melihat explanation video dari kami.",
-					position: 'top'
+					intro: "Untuk lebih memahami layanan ThankSpace, Anda bisa mencoba melihat explanation video dari kami. <i>wasn't</i> that fun?",
+					position: 'left'
 				},
 				{
 					element: '#step3',

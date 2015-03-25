@@ -19,10 +19,10 @@
 				<li>
 					<a><span class="round-tabs three"><i class="glyphicon glyphicon-user"></i></span></a>
 				</li>
-				<li class="active">
-					<a><span class="round-tabs four"><i class="glyphicon glyphicon-ok"></i></span></a>
+				<li >
+					<a><span class="round-tabs four"><i class="glyphicon glyphicon-eye-open"></i></span></a>
 				</li>
-				<li>
+				<li class="active">
 					<a><span class="round-tabs five"><i class="glyphicon glyphicon-ok"></i></span></a>
 				</li>
 			</ul>
@@ -35,14 +35,16 @@
 				<div class="panel panel-default">
 					<div data-step="1" data-intro="This is a tooltip!" class="panel-body ">
 						<center>
-							<h2 >Thank You!</h2>
-							<p>Lorem ipsum</p>
-							<h4>A success message!</h4>
+							<h4>Terima Kasih!</h4>
+							<hr>
+							<p>Terima kasih sudah melakukan pemesanan untuk penyimpanan Storage Box atau Barang 
+							Oversized Anda.<br><br>Langkah selanjutnya adalah melakukan pembayaran sesuai dengan metode pembayaran yang
+							telah Anda pilih. Masuk ke Akun Anda - Lihat Invoice.</p>
 							<div class="row">
-								<div class="col-sm-2 text-center">
-									<p><button class="btn btn-primary sweet-3" onclick="_gaq.push(['example', 'try', 'sweet-3']);">Try It</button></p>
-									<p><button class="btn btn-primary" onclick="javascript:introJs().setOption('showProgress', true).start();">Demo css</button></p>
-								</div>
+
+
+						<center><a class="btn btn-primary" href="invoice.php">Lihat Invoice</a></center>
+
 							</div>
 						</center>
 					</div>
@@ -52,11 +54,15 @@
 	</div>
 	<!-- end container-->
 	<script>
-		document.querySelector('.sweet-3').onclick = function codeAddress(){
-			swal("Good job!", "You clicked the button!", "success");
-		};
+
 		function codeAddress() {
-			swal("Good job!", "You clicked the button!", "success");
+
+			swal({
+  title: "Thanks!",
+  text: "Terima kasih sudah menggunakan layanan ThankSpace.",
+  imageUrl: 'assets/img/order-completed.png'
+});
+
 		}
 		window.onload = codeAddress;
 	</script>

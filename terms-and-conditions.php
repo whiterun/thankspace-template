@@ -1,19 +1,35 @@
 <!-- header - mulai -->
-<?php include "template/header.tpl"; ?>
-	<!-- nav bar - mulai -->
-	<?php include "template/navbar.tpl"; ?>
-
-	<!-- modal - mulai -->
-	<?php include "template/modal.tpl"; ?>
+<?php include "template/header.tpl"; ?> 
+	<!-- ini nav bar - mulai-->
+	<?php include "template/navbar-logged-in.tpl"; ?> 
+	<!-- ini nav bar - selesai-->
 	
 	<div class="page-header" id="banner">
 		<div class="row text-center">
-			<h3>Syarat dan Ketentuan Penggunaan Thankspace.com</h3>
+			<h3>Syarat dan Ketentuan</h3>
 		</div>
 	</div>
 	<div class="container">
-		<div class="panel panel-default col-lg-9 col-centered">
-			<div class="panel-body">
+		<div class="row">
+			<div class="col-lg-3 hidden-md hidden-sm hidden-xs ">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<h5>Menu</h5>
+						<ul>
+							<li><b>Tentang Kami</b></li>
+							<li><a href="bantuan">Karir</a></li>
+							<li><a href="daftarkan-target-sosial">Syarat dan Ketentuan</a></li>
+							<li><a href="daftarkan-event">Aturan Penyimpanan</a></li>
+							<li><a href="kontak-kami">Kontak Kami</a></li>
+						</ul>
+					</div>  
+				</div>
+			</div>
+			<div class="col-lg-9">
+				<div class="panel panel-default">
+					<div class="panel-body">
+
+
 			<h2>Terms and Conditions</h2> 
 				<ol>
 					<li>
@@ -23,7 +39,7 @@
 								Terima kasih atas kunjungan Anda ke Website Kami, www.Thankspace.com. Kami berharap agar kunjungan Anda dapat bermanfaat dan memberi kenyamanan dalam mengakses dan menggunakan seluruh Layanan yang tersedia di Website Kami. Kami terus menerus berupaya memperbaiki dan meningkatan mutu pelayanan Kami, dan sangat menghargai segala kritik, saran dan masukan dari Anda; Silakan Anda menyampaikannya ke Kami melalui info@thankspace.com.
 							</li>
 							<li>
-								Website ini dimiliki, dioperasikan dan diselenggarakan oleh PT. Matahari Labs (“Kami” atau Thankspace.com”), perseroan terbatas yang berdiri atas dasar hukum Republik Indonesia, Ijin Tetap Usaha Pariwisata Nomor ____/____ tertanggal __ ______ _____; Website dan Layanan Kami tersedia secara online melalui Website: www.thankspace.com atau berbagai akses, media, perangkat dan platform lainnya, baik yang sudah atau akan tersedia dikemudian hari.
+								Website ini dimiliki, dioperasikan dan diselenggarakan oleh PT. Matahari Labs (“Kami” atau Thankspace.com”), perseroan terbatas yang berdiri atas dasar hukum Republik Indonesia, Ijin Tetap Usaha Pergudangan Nomor ____/____ tertanggal __ ______ _____; Website dan Layanan Kami tersedia secara online melalui Website: www.thankspace.com atau berbagai akses, media, perangkat dan platform lainnya, baik yang sudah atau akan tersedia dikemudian hari.
 							</li>                    
 						</ol>
 					</li>
@@ -32,9 +48,6 @@
 						<ol>
 							<li>
 								Dengan mengakses dan menggunakan Website dan Layanan Kami, Anda menyatakan telah membaca, memahami, menyetujui dan menyatakan tunduk pada Syarat dan Ketentuan Penggunaan Thankspace.com ini. Jika Anda tidak dapat menyetujui Syarat dan Ketentuan Penggunaan Thankspace.com ini, baik secara keseluruhan ataupun sebagian, maka Anda tidak diperbolehkan untuk mengakses Website ini ataupun menggunakan Layanan yang Kami sediakan.
-							</li>
-							<li>
-								Syarat dan Ketentuan Penggunaan Thankspace.com ini terdiri atas (i) syarat dan ketentuan umum yang berlaku untuk setiap akses dan Layanan yang tersedia pada Website, dan (ii) syarat dan ketentuan khusus yang mengatur lebih lanjut ketentuan penggunaan produk atau Layanan tertentu. Dalam hal ditemukan adanya perbedaan atau pertentangan antara syarat dan ketentuan umum dan syarat dan ketentuan khusus, maka yang berlaku adalah syarat dan ketentuan khusus.
 							</li>
 							<li>
 								Syarat dan Ketentuan Penggunaan Thankspace.com dapat Kami ubah, modifikasi, tambah, hapus atau koreksi ("perubahan") setiap saat dan setiap perubahan itu berlaku sejak saat Kami nyatakan berlaku atau pada waktu lain yang ditetapkan oleh Kami; Anda Kami anjurkan untuk mengunjungi Website Kami secara berkala agar dapat mengetahui adanya perubahan tersebut.
@@ -64,8 +77,57 @@
 							</li>
 						</ol>
 					</li>
+
+
+					<li>
+						<h4> Pendaftaran dan Akun </h4>
+						<ol>
+
+							<li>
+							Untuk menggunakan layanan kami, Anda harus mendaftar dan membuat akun dengan kami. Anda 
+							akan diminta untuk memberikan informasi pribadi Anda termasuk namun tidak terbatas pada 
+							nama, alamat email, nomor telepon dan alamat sebagai bagian dari proses pendaftaran. 
+							Anda bertanggung jawab, sesuai dengan syarat-syarat Kebijakan Privasi kami, untuk 
+							memastikan bahwa informasi pribadi yang Anda berikan adalah lengkap, akurat dan
+							 up to date.
+							</li>
+							<li>
+							Saat pendaftaran, Anda akan memilih username dan password (informasi masuk). Anda 
+							bertanggung jawab untuk menjaga informasi login Anda rahasia dan untuk mengambil 
+							semua langkah yang wajar untuk memastikan tidak ada yang lain selain diri Anda dapat 
+							mengakses akun Anda. 
+							</li>
+							<li>
+							Anda setuju bahwa setiap orang yang memiliki informasi login Anda berwenang untuk 
+							bertindak sebagai wakil Anda untuk menggunakan dan Layanan website kami. Anda 
+							bertanggung jawab untuk semua aktivitas yang terjadi dalam account Anda. Anda harus 
+							segera memberitahukan ThankSpace jika Anda menyadari atau mencurigai bahwa informasi 
+							login Anda telah menjadi diketahui orang lain.</li>
+						</ol>
+					</li>
+
+
+					<li>
+						<h4> Pembayaran dan Biaya</h4>
+						<ol>
+
+							<li>
+							-
+							</li>
+							<li>
+							-
+							</li>
+							<li>
+							-
+							</li>
+						</ol>
+					</li>
+
 				</ol>
+
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-<?php include "template/footer.tpl"; ?>
+<?php include "template/footer.tpl"; ?> 

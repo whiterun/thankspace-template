@@ -8,16 +8,17 @@
 	
 	<div class="page-header" id="banner">
 		<div class="row text-center">
-			<h3>My Storage Boxes</h3>
+			<h3>Hai, bagaimana kabar Anda hari ini.</h3>
 		</div>
 	</div>
 	<div class="container">
 		<div class="col-lg-3">
 			<ul class="nav nav-pills nav-stacked" style="max-width: 300px;">
-				<li><a href="javascript:void(0)">Storage Keren Saya</a></li>
-				<li><a href="javascript:void(0)">Order Storage Box</a></li>
-				<li><a href="javascript:void(0)">Settings</a></li>
-				<li><a href="javascript:void(0)">Sign Out</a></li>
+				<li><a href="customer.php">Storage Saya</a></li>
+				<li><a href="invoice.php">Riwayat Invoice</a></li>
+				<li><a href="order.php">Order Storage Box</a></li>
+				<li><a href="settings.php">Settings</a></li>
+				<li><a href="#">Sign Out</a></li>
 			</ul>
 		</div>
 		<div class="col-lg-9">
@@ -27,11 +28,12 @@
 						<h3>Saat ini Anda belum menyimpan sesuatu pada tempat penyimpanan/<i>Warehouse</i> kami.</h3>
 						<p>Pesan storage box sesuai dengan kebutuhan Anda</p>
 						<p>
-							<a class="btn btn-primary" href="order-schedule.php">Order Storage Box</a>
+							<a class="btn btn-primary" href="order.php">Order Storage Box</a>
 						</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
 <?php include "template/footer.tpl"; ?>

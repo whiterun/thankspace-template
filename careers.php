@@ -6,7 +6,7 @@
 	
 	<div class="page-header" id="banner">
 		<div class="row text-center">
-			<h3>Tentang Kami</h3>
+			<h3>Karir di ThankSpace</h3>
 		</div>
 	</div>
 	<div class="container">

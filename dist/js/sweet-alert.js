@@ -507,8 +507,8 @@
       $customIcon.style.backgroundImage = 'url(' + params.imageUrl + ')';
       show($customIcon);
 
-      var _imgWidth  = 80,
-          _imgHeight = 80;
+      var _imgWidth  = 183,
+          _imgHeight = 179;
 
       if (params.imageSize) {
         var imgWidth  = params.imageSize.split('x')[0];

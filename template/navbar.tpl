@@ -10,12 +10,12 @@
 		</div>
 		<div class="navbar-collapse collapse" id="navbar-main">
 			<ul class="nav navbar-nav">
-				<li><a href="#location">Location</a></li>
+				<li><a href="#location">Lokasi</a></li>
 				<li><a href="#pricing">Pricing</a></li>
 				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Help<span class="caret"></span></a>
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Bantuan<span class="caret"></span></a>
 					<ul class="dropdown-menu" aria-labelledby="themes">
-						<li><a href="#">About Us</a></li>
+						<li><a href="#">Tentang Kami</a></li>
 						<li><a href="#">FAQ</a></li>
 					</ul>
 				</li>

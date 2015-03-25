@@ -8,8 +8,8 @@
 			</div>
 			<div class="modal-body">
 				<form class="form-horizontal">
-					<fieldset>
-						<p>Silahkan Sign In dengan akun Anda</p>
+					<fieldset><span class="error-alert"> <i class="fa fa-meh-o fa-4"></i> Maaf kombinasi email dan password Anda tidak benar.</span><p>
+						Silahkan Sign In dengan akun Anda</p>
 						<div class="form-group">
 							<div class="col-lg-12">
 								<div class="input-group margin-bottom-sm">
@@ -53,6 +53,21 @@
 			<div class="modal-body">
 				<form class="form-horizontal">
 					<fieldset>
+					<span class="error-alert"> <i class="fa fa-meh-o"></i> 
+Jangan lupa isi nama Anda.</span><br>
+<span class="error-alert"> <i class="fa fa-meh-o"></i> 
+Format No telepon Anda tidak benar.</span><br>
+<span class="error-alert"> <i class="fa fa-meh-o"></i> 
+Maaf, alamat email sudah terdaftar di Thankspace.</span><br>
+<span class="error-alert"> <i class="fa fa-meh-o"></i> 
+Maaf, password yang Anda masukkan tidak sama.<br></span><br>
+<span class="success-alert"> <i class="fa fa-smile-o"></i> 
+Kami suka sekali nama Anda.</span><br>
+<span class="success-alert"> <i class="fa fa-smile-o"></i> 
+Email tersedia untuk di daftarkan.</span><br>
+<span class="success-alert"> <i class="fa fa-smile-o"></i> 
+Jangan sampai lupa dengan Password Anda.</span>
+
 						<p>Isi data Anda untuk pendaftaran </p>
 						<div class="form-group">                    
 							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="padding-bottom:20px;">
@@ -132,7 +147,11 @@
 			</div>
 			<div class="modal-body">
 				<form class="form-horizontal">
-					<fieldset>
+					<fieldset><span class="error-alert"> <i class="fa fa-meh-o"></i> 
+Alamat email (name@mail.com) belum terdaftar di ThankSpace. Ingin <a href="#myModal2" data-toggle="modal" data-dismiss="modal">mendaftar</a>?</span>
+<p>
+<span class="success-alert"> <i class="fa fa-smile-o"></i> 
+Email terkirim. Ikuti petunjuk yang kami kirim ke name@mail.com untuk mereset password Anda.</span>
 						<p>Kami akan mengirimkan email dengan petunjuk lebih lanjut tentang cara untuk mereset password Anda.</p>
 						<div class="form-group">
 							<div class="col-lg-12">

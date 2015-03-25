@@ -20,7 +20,7 @@
 					<a><span class="round-tabs three"><i class="glyphicon glyphicon-user"></i></span></a>
 				</li>
 				<li>
-					<a><span class="round-tabs four"><i class="glyphicon glyphicon-ok"></i></span></a>
+					<a><span class="round-tabs four"><i class="glyphicon glyphicon-eye-open"></i></span></a>
 				</li>
 				<li>
 					<a><span class="round-tabs five"><i class="glyphicon glyphicon-ok"></i></span></a>
@@ -35,7 +35,7 @@
 				<div class="panel panel-default">
 					<div class="panel-body ">
 						<center>
-							<h2>Silakan masukkan detail diri Anda</h2>
+							<h4>Silakan masukkan detail diri Anda</h4><hr>
 						</center>
 						<br><br>
 						<form class="form-horizontal">
@@ -139,7 +139,7 @@
 								</div>
 							</fieldset>
 						</form>
-						<center><a class="btn btn-primary" href="order-completed.php">Checkout</a></center>
+						<center><a class="btn btn-primary" href="order-review.php">Lanjutkan</a></center>
 					</div>
 				</div>
 			</div>

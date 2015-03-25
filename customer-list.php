@@ -17,7 +17,7 @@
 				<div class="panel-body">
 					<h3>Admin Menu</h3>
 					<p><a href="add-member.php">Add New Customer/Delivery Team</a> - <a href="customer-list.php">Member List </a></p>
-					
+
 					<div class="col-lg-12">
 						<div class="col-lg-3 text-center">
 							<h2>1523 Box</h2>
@@ -39,95 +39,70 @@
 					<div class="col-lg-12">
 						<hr>
 					</div>
-					<h3>Riwayat Order Terbaru</h3>
+					<h3>Daftar Member Terdaftar</h3>
 					<table class="table table-striped table-hover ">
 						<thead>
 							<tr>
-								<th>Order Number</th>
-								<th>Customer</th>
-								<th>Box Yang dibutuhkan</th>
-								<th>Barang Lain</th>
-								<th>Jadwal Box Diantar</th>
-								<th>Jadwal Box Diambil</th>
-								<th>Biaya</th>
-								<th>Status</th>
+								<th>Number</th>
+								<th>Nama Depan</th>
+								<th>Nama Belakang</th>
+								<th>Email</th>
+								<th>No. Telepon</th>
+								<th>Alamat</th>
+								<th>Gender</th>
+								<th>Type</th>
+								<th>Order</th>
 								<th>Aksi</th>
 							</tr>
 						</thead>
 						<tbody>
-							<tr class="danger">
-								<td>2354</td>
-								<td><a href="">Dapoer Coklat</a></td>
-								<td>10</td>
-								<td>Kulkas</td>
-								<td>25-12-2015</td>
-								<td>25-12-2015</td>
-								<td>650000</td>
-								<td><span class="label label-danger">Pending Payment</span></td>
+							<tr>
+								<td>1</td>
+								<td>Antoni</td>
+								<td>Putra</td>
+								<td>antoni@gmail.com</td>
+								<td>08572364664</td>
+								<td>Jl. Panggung</td>
+								<td>Male</td>
+								<td>Customer</td>
+								<td>2</td>
 								<td>
 									<div class="checkbox">
 									<label><input type="checkbox"></label>
 									</div>
 								</td>
 							</tr>
-							<tr class="info">
-								<td>2241</td>
-								<td><a href="">JNE plus plus</a></td>
-								<td>4</td>
-								<td>Boks dokumen</td>
-								<td>25-12-2015</td>
-								<td>25-12-2015</td>
-								<td>650000</td>
-								<td><span class="label label-info">Complete Payment</span> </td>
+							<tr>
+								<td>2</td>
+								<td>Antoni</td>
+								<td>Putra</td>
+								<td>antoni@gmail.com</td>
+								<td>08572364664</td>
+								<td>Jl. Panggung</td>
+								<td>Male</td>
+								<td>Customer</td>
+								<td>5</td>
 								<td>
-								<!--	<div class="checkbox">
+								<div class="checkbox">
 										<label><input type="checkbox"></label>
 									</div>
-								</td>-->
+								</td>
 							</tr>
 							<tr class="success">
-								<td>2354</td>
-								<td><a href="">Clark Kent</a></td>
-								<td>5</td>
-								<td>Sofa, Meja, Lemari</td>
-								<td>25-12-2015</td>
-								<td>25-12-2015</td>
-								<td>452000</td>
-								<td><span class="label label-success">Stored</span></td>
+								<td>3</td>
+								<td>Sam</td>
+								<td>Samuel</td>
+								<td>Samuel@gmail.com</td>
+								<td>08572364664</td>
+								<td>Jl. Embong Sawah</td>
+								<td>Male</td>
+								<td>Delivery Team</td>
+								<td>1</td>
 								<td>
-								<!--	<div class="checkbox">
+									<div class="checkbox">
 										<label><input type="checkbox"></label>
 									</div>
-								</td>-->
-							</tr>
-							<tr>
-								<td>3217</td>
-								<td><a href="">Deny Setiawan</a></td>
-								<td>8</td>
-								<td>0</td>
-								<td>01-05-2015</td>
-								<td>01-05-2015</td>
-								<td>250000</td>
-								<td><span class="label label-default">Sudah di ambil (Sukses)</span> </td>
-								<td>
-								<!--	<div class="checkbox">
-										<label><input type="checkbox"></label>
-									</div>
-								</td>-->							</tr>
-							<tr>
-								<td>4412</td>
-								<td><a href="">Akbar</a></td>
-								<td>12</td>
-								<td>0</td>
-								<td>01-05-2015</td>
-								<td>01-05-2015</td>
-								<td>250000</td>
-								<td><span class="label label-default">Diambil semua (Sukses)</span> </td>
-								<td>
-								<!--	<div class="checkbox">
-										<label><input type="checkbox"></label>
-									</div>
-								</td>-->
+								</td>
 							</tr>
 							<tr>
 								<td class="text-right" colspan="9">
@@ -135,7 +110,7 @@
 										<a href="javascript:void(0)" class="btn btn-primary">Action</a>
 										<a href="bootstrap-elements.html" data-target="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
 										<ul class="dropdown-menu">
-											<li><a href="javascript:void(0)">Konfirmasi Pembayaran</a></li>
+											<li><a href="javascript:void(0)">Edit Detail</a></li>
 										</ul>
 									</div>
 								</td>
