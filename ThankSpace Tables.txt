@@ -16,22 +16,12 @@ user
 	- created_at
 	- updated_at
 
-other_stuff
-	- id
-	- name
-	- price
-	- status
-	- created_at
-	- updated_at
-
 order
 	- id
 	- user_id (int table:user)
-	- box (int)
-	- fit_in (int 0:1)
-	- other_stuff_id (int table:stuff || 0)
-	- other (text)
-	- status (0 default |1|2)
+	- type (box|item)
+	- quantity (int)
+	- description (text) (type item only)
 	- created_at
 	- updated_at
 
@@ -42,7 +32,14 @@ order_schedule
 	- delivery_time (varchar)
 	- pickup_date (timestamp)
 	- pickup_time (varchar)
-	- status (0 scheduled | 1 delivered)
+	- status (0|1)
+	- created_at
+	- updated_at
+
+order_stuff (type box only)
+	- id
+	- order_id (int table:order)
+	- description (text)
 	- created_at
 	- updated_at
 
@@ -52,7 +49,7 @@ order_payment
 	- code (automatic generated)
 	- method (default:bank transfer)
 	- message (text)
-	- status (0|1)
+	- status (0|1|2)
 	- created_at
 	- updated_at
 
@@ -60,13 +57,7 @@ driver_schedule
 	- id
 	- user_id
 	- order_id
-	- created_at
-	- updated_at
-
-stuff
-	- id
-	- order_id (int table:order)
-	- name (varchar)
+	- type (store|return)
 	- created_at
 	- updated_at
 
@@ -75,6 +66,7 @@ return_schedule
 	- order_id
 	- return_date (timestamp)
 	- return_time (varchar)
+	- status (0|1)
 	- created_at
 	- updated_at
 
